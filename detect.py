@@ -1,5 +1,4 @@
 import cv2
-import math
 import argparse
 
 # Function to detect and highlight faces in the image
@@ -91,7 +90,7 @@ while cv2.waitKey(1) < 0:
         
         # Show the result in a window
         cv2.imshow("Detecting Age and Gender", resultImg)
-    
+
 # Release the video stream and close all OpenCV windows
 video.release()
 cv2.destroyAllWindows()
